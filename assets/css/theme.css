@@ -575,6 +575,18 @@ ul.list-inline-pills {
   margin: 0;
 }
 
+@media (min-width: 1200px) {
+  ul.list-inline-pills {
+    min-width: 750px;
+  }
+}
+
+@media (min-width: 1400px) {
+  ul.list-inline-pills {
+    min-width: 900px;
+  }
+}
+
 ul.list-inline-pills li {
   display: inline-flex;
   align-items: center;
