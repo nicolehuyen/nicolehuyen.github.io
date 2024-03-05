@@ -614,6 +614,13 @@ ul.list-inline-pills li:hover {
   color: white;
 }
 
+ul.list-inline-pills img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  padding-right: 10px;
+}
+
 @media (max-width: 991.98px) {
   ol {
     margin: 0 0 -5px;
